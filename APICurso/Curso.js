@@ -10,6 +10,7 @@ export default function Curso() {
     setData(data);
   };
 
+  
   useEffect(() => {
     fetchData();
   }, []);
