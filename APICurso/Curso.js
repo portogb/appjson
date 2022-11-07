@@ -38,6 +38,7 @@ export default function Curso() {
     </SafeAreaView>
   );
 }
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -57,6 +58,8 @@ const styles = StyleSheet.create({
       tinyLogo: {
         flex:1,
         alignSelf:"center",
-        resizeMode: "contain"
+        resizeMode: "contain",
+        width: 100,
+        height: 100
       },
   });
